@@ -2,7 +2,8 @@
 layout: post
 title:  "Static Site Generators"
 date:   2017-11-09 10:17:54 +0100
-categories: jekyll update
+categories: ssg static site generators jekyll
+image: ../images/pic02.jpg
 ---
 I think Static Site Generators are a great way of getting started. I have a made a website from scratch a couple of times, and it is always a bit of a pain to get started. The header and navbar are usually not the most exciting elements to develop, yet they need to be done and also made responsive. 
 
