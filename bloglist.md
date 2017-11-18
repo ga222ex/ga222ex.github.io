@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-Blog post list
+<h1>Blog post list</h1>
 <ul>
   {% for post in site.posts %}
     <li>
@@ -9,7 +9,3 @@ Blog post list
     </li>
   {% endfor %}
 </ul>
-
-Blog posts by category
-
-asd
