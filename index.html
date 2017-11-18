@@ -17,8 +17,6 @@ sitemap:
 <html>
 	<head>
     {% include head.html %}
-
-
 	</head>
 	<body class="is-loading">
 
@@ -82,7 +80,7 @@ sitemap:
 
 						<!-- Posts -->
 							<section class="posts">
-                {% for post in site.posts limit:3 %}
+                {% for post in site.posts limit:4 %}
                 {% assign mod3 = forloop.index | modulo: 3 %}
   								<article>
   									<header>

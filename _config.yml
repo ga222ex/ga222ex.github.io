@@ -13,7 +13,8 @@ defaults:
   values:
     permalink: "/blog/:title/"
     layout: post
-    author:
+    comments: true
+    author: Gustav Andersson
 
 # Jekyll
 permalink:          /blog/:title/
@@ -42,7 +43,7 @@ github:             ga222ex
 
 # personal
 location:           Stockholm, Sweden
-# phone:              
+phone:              Send me an e-mail first!
 email:              ga222ex@student.lnu.se
 
 # Gems
@@ -61,3 +62,6 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+
+# Gustav settings
+timezone: Europe/Stockholm

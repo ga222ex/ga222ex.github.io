@@ -1,10 +1,8 @@
 ---
-layout: post
 title:  "CSS preprocessors"
 date:   2017-11-08 10:17:54 +0100
 categories: css preprocessors sass
-image: ../images/pic01.jpg
-comments: true
+image: images/pic01.jpg
 ---
 By using a css preprocessor, you can simplify the way you write your css. You can make your stylesheets more concise, easier to read and maintain. There are many different css processors out there, but sass, less and stylus are currently the most widely used. 
 
