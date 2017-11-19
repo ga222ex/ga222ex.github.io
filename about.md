@@ -11,15 +11,14 @@ sitemap:
 
 <span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
 
-My name is Gustav Andersson.
+My name is Gustav Andersson. I study web development at Linneuniversitet in Sweden, located in Växjö and Kalmar, however I live in Stockholm and study remotely.
+I'm a bit of a tech geek and I enjoy creating stuff for the web, but I am also interested in Linux, server side programming, hardware and electronics in general. And although I am still a novice in these fields, I enjoy tinkering with them at home, at my own leisure.
 
-### Content is Imortant
+### Other projects
 <div class="box">
   <p>
-  In saying that, a one-measure fits-all approach won't do the trick with regards to content promoting. Rather, an emphasis on making remarkable, high caliber and totally genuine content that is engaging, helpful and fascinating for customers will get you the crown. From content, video and symbolism to infographics, studies, online courses and podcasts, whatever your favored content medium is, guarantee it is shareable and pertinent to your industry.
+  My first project, created about a year ago, is <a href="http://gstav.se" target="blank">this website</a>. It is very incomplete, and only serves as a playground for me to try new techniques. It was created using the framework AngularJS, so it is effectively a single page application. Feel free to browse.
   </p>
 </div>
 
-<span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
-
-On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
+<!-- <span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span> -->

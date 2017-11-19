@@ -1,7 +1,6 @@
 # Site
 title:              Gustav Andersson
-bio:                'hejhej'
-description:        "Jekyll lalala version of the Massively theme by HTML5UP"
+description:        "Blog and other goodies. Created with Jekyll and theme Massively theme by HTML5UP"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site

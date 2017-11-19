@@ -1,4 +1,32 @@
+$heading2-size: 3rem;
+$heading3-size: 2rem;
 
-#signature {
+#signature, .bloglist-title {
     font-weight: 700;
+}
+
+@media screen and (max-width: 1280px) {
+    #main > .post {
+        padding: 4rem;
+    }
+}
+#blog {
+    .featured {
+        h2 {
+            font-size: $heading2-size;
+        }
+    }
+}
+#bloglist {
+    h3 {
+        font-size: $heading3-size;
+    }
+}
+
+.nextPrev {
+    display: flex;
+    justify-content: space-between;
+}
+.cursive {
+    font-style: italic;
 }

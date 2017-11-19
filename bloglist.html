@@ -1,0 +1,30 @@
+---
+layout: page
+---
+<div id="bloglist">
+  <h3>Blog post list (newest to oldest)</h3>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}" class="bloglist-title">{{ post.title }}</a><span> - {{post.date | date_to_long_string}}</span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h3>Blog posts by category</h3>
+
+  <div id="archives">
+    {% for category in site.categories %}
+    <div class="archive-group">
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <p></p>
+        <h3 class="category-head">{{ category_name }}</h3>
+        {% for post in site.categories[category_name] %}
+          <article class="archive-item">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+          </article>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
