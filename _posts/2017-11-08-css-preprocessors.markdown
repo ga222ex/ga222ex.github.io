@@ -8,10 +8,12 @@ By using a css preprocessor, you can simplify the way you write your css. You ca
 
 This blogpost will focus on sass, but the syntax and functionality for all three are pretty similar. Furthermore, sass has two different syntaxes, called sass and scss. I will focus on the scss syntax, which is most similar to regular css.
 
-**sass**
+<h3>sass</h3>
 
 sass is probably the most widely used css preprocessor today. A great way of figuring out if something is for you, is a pros and cons list, so here we go!
-pros
+
+**pros**
+
 * Variables. You can define and use variables. This proves very convenient when working with colors, as you can apply different shades of the same color throughout your code. It is also useful when working with fixed widths, or just simply for code reuse.
 * All css is valid sass. This means you can start using sass in the midde of your project. Just move your css to a sass-file, and slowly start integrating more sass features as you go.
 * Built in functions, such as the color functions “lighten” and “darken”. you can probably figure out what they do!
@@ -25,5 +27,6 @@ pros
 
 * Another layer of abstraction. Your code needs to compile down to valid css before it can be displayed on your site. This introduces a build step, which adds complexity and waiting time.
 * New syntax. Sass brings with it new syntax, which you need to learn and understand.
-In the project made to create this site, I used all the points I listed under pros, in other words: variables, mixins, operators, nesting and functions.
+
+In the creation of this site, I used variables and nesting, however I will soon expand this usage to also include mixins, operators and functions.
 
