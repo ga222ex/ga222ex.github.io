@@ -26,3 +26,10 @@
 {% else %}
   <meta content="https://ga222ex.github.io/assets/icon/favicon-32x32.png" property="og:image">
 {% endif %}
+
+<!-- og:description -->
+{% if page.excerpt %}
+<meta content="{{ page.excerpt }}" property="og:description">
+{% else %}
+<meta content="{{ site.description }}" property="og:description">
+{% endif %}
