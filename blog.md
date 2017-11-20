@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Gustavs blog page
+title: Blog
 description: blog
 sitemap:
     priority: 1.0

@@ -1,6 +1,6 @@
 # Site
 title:              Gustav Andersson
-description:        "Blog and other goodies. Created with Jekyll and theme Massively theme by HTML5UP"
+description:        "Personal page with blog and other goodies by Gustav Andersson. Created with Jekyll."
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
