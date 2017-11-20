@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Bloglist
+title: Blog posts
 ---
-<div id="bloglist">
-  <h3>Blog post list (newest to oldest)</h3>
+<div id="blogposts">
+  <h3>Blog posts by list (newest to oldest)</h3>
   <ul>
     {% for post in site.posts %}
       <li>
-        <a href="{{ post.url }}" class="bloglist-title">{{ post.title }}</a><span> - {{post.date | date_to_long_string}}</span>
+        <a href="{{ post.url }}" class="blogposts-title">{{ post.title }}</a><span> - {{post.date | date_to_long_string}}</span>
       </li>
     {% endfor %}
   </ul>

@@ -1,7 +1,7 @@
 $heading2-size: 3rem;
 $heading3-size: 2rem;
 
-#signature, .bloglist-title {
+#signature, .blogposts-title {
     font-weight: 700;
 }
 
@@ -17,7 +17,7 @@ $heading3-size: 2rem;
         }
     }
 }
-#bloglist {
+#blogposts {
     > h3 {
         font-size: $heading3-size;
     }
