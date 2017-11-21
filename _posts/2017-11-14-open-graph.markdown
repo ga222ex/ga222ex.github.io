@@ -9,3 +9,4 @@ Open graph is a technology first introduced by Facebook in 2010. It allows integ
 Basically, it allows you to make visible selected pieces of information and data, like images, directly when you create a link to a website in a facebook update. That way, by including a relevant picture and an interesting sentence or two, you could more easily entice readers and subsequently making them click on the link.
 
 In order to make this possible, information is sent via Open Graph meta tags in the <head> part of the website’s code.
+

@@ -3,7 +3,7 @@ title:              Gustav Andersson
 description:        "Personal page with blog and other goodies by Gustav Andersson. Created with Jekyll."
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://ga222ex.github.io" # the base hostname & protocol for your site
 
 defaults:
 - scope:

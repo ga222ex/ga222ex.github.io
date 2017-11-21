@@ -1,16 +1,16 @@
 <!-- og:site_name -->
-<meta content="{{ site.title }}" property="og:site_name">
+<meta content="{{site.title}}" property="og:site_name">
 
 <!-- og:title -->
 {% if page.title %}
-  <meta content="{{ page.title }}" property="og:title">
+  <meta content="{{page.title}}" property="og:title">
 {% else %}
-  <meta content="{{ site.title }}" property="og:title">
+  <meta content="{{site.title}}" property="og:title">
 {% endif %}
 
 <!-- og:url -->
 {% if page.url %}
-  <meta content="https://ga222ex.github.io{{ page.url }}" property="og:url">
+  <meta content="{{site.url}}{{page.url}}" property="og:url">
 {% endif %}
 
 <!-- og:type -->
@@ -22,14 +22,14 @@
 
 <!-- og:image -->
 {% if page.image %}
-  <meta content="https://ga222ex.github.io/{{ page.image }}" property="og:image">
+  <meta content="https://ga222ex.github.io/{{page.image}}" property="og:image">
 {% else %}
   <meta content="https://ga222ex.github.io/images/shadowrun1.jpg" property="og:image">
 {% endif %}
 
 <!-- og:description -->
 {% if page.excerpt %}
-  <meta content="{{ page.excerpt | strip_html | truncatewords: 30}}" property="og:description">
+  <meta content="{{page.excerpt | strip_html | truncatewords: 30}}" property="og:description">
 {% else %}
-  <meta content="{{ site.description }}" property="og:description">
+  <meta content="{{site.description}}" property="og:description">
 {% endif %}
