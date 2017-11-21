@@ -52,4 +52,4 @@ In order to make this possible, information is sent via Open Graph meta tags in 
 {% endraw %}
 {% endhighlight %}
 
-Now, Facebook generally caches your website's Open Graph properties the first time it encounters them, so if you change anything and share your post again, your updated values might not show up. What you need to do is go to <a href="http://developers.facebook.com/tools/debug" target="_blank">Facebook Sharing Debugger</a>, enter the url of your website and request to scrape the URL again simply by pressing a button. Now sharing your post should render just fine!
+Now, Facebook generally caches your website's Open Graph properties the first time it encounters them, so if you change anything and share your post again, your updated values might not show up. What you need to do is go to [Facebook Sharing Debugger](http://developers.facebook.com/tools/debug){:target="_blank"}, enter the url of your website and request to scrape the URL again simply by pressing a button. Now sharing your post should render just fine!
