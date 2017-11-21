@@ -22,7 +22,7 @@
 
 <!-- og:image -->
 {% if page.image %}
-  <meta content="https://ga222ex.github.io/{{page.image}}" property="og:image">
+  <meta content="{{site.url}}{{page.image}}" property="og:image">
 {% else %}
   <meta content="https://ga222ex.github.io/images/shadowrun1.jpg" property="og:image">
 {% endif %}

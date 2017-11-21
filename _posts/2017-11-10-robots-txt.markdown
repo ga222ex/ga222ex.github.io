@@ -2,7 +2,7 @@
 title:  "robots.txt"
 date:   2017-11-10 10:17:54 +0100
 categories: misc
-image: images/robots.png
+image: /images/robots.png
 ---
 robots.txt is a textfile that you put in the root directory of your web server. Robots – also known as crawlers or spiders – check this document before crawling a website.
 

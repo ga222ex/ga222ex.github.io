@@ -2,7 +2,7 @@
 title:  "How I implemented blog comments"
 date:   2017-11-13 10:17:54 +0100
 categories: blog
-image: images/comments.jpg
+image: /images/comments.jpg
 ---
 I implemented blog comments on my blog by using Disqus. Disqus is one of the most popular ways to do this, and Disqus alone stands for letting millions of people post more than 50 million comments every month.
 

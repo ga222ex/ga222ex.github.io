@@ -2,7 +2,7 @@
 title:  "humans.txt"
 date:   2017-11-11 10:17:54 +0100
 categories: misc
-image: images/humans.png
+image: /images/humans.png
 description: humans.txt is a textfile you can put in the root directory of your site. It is a .txt file that contains information about the creators of the website in question. It was invented as a fast and easy way to give credit to the authors without interfering with the code.
 ---
 humans.txt is a textfile you can put in the root directory of your site. It is a .txt file that contains information about the creators of the website in question. It was invented as a fast and easy way to give credit to the authors without interfering with the code. 

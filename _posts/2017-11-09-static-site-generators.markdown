@@ -2,7 +2,7 @@
 title:  "Static Site Generators"
 date:   2017-11-09 10:17:54 +0100
 categories: jekyll
-image: images/jekyll.png
+image: /images/jekyll.png
 ---
 I think Static Site Generators are a great way of getting a project started. I have a made a website from scratch a couple of times, and it is always a bit of a pain to get started.
 

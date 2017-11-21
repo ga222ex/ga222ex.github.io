@@ -37,14 +37,14 @@
       				<span class="date">{{page.date | date_to_string}}</span>
       				<h1>{{page.title}}</h1>
       			</header>
-      			<div class="image main"><img src="/{{page.image}}" alt=""></div>
+      			<div class="image main"><img src="{{page.image}}" alt=""></div>
             <p>{{content}}</p>
 						<p id="signature">This article is written by {{page.author}}.</p>
 						<hr>
 						<!-- <p>Post categories: {{page.categories}}</p> -->
 						<div class="nextPrev">
-							<p>Previous post: <a href="{{ site.baseurl }}{{ page.previous.url }}">{{page.previous.title}}</a></p>
-							<p>Next post: <a href="{{ site.baseurl }}{{ page.next.url }}">{{page.next.title}}</a></p>
+							<p>Previous post: <a href="{{ page.previous.url }}">{{page.previous.title}}</a></p>
+							<p>Next post: <a href="{{ page.next.url }}">{{page.next.title}}</a></p>
 						</div>
 						
           </section>
