@@ -1,0 +1,26 @@
+---
+title:  "rsyslog"
+date:   2018-11-19 20:45:00 +0100
+categories: ubuntu
+---
+### rsyslog daemon
+
+rsyslog is a service or daemon in Linux used to store or ship syslogs so sysadmins can manage their systems.
+
+You can check if the service is running: `$ systemctl status rsyslog`
+
+rsyslog can send logs to files on the local machine or to a remote host.
+
+### configuring rsyslog
+
+In Ubuntu, the rsyslog configuration file is located at `/etc/rsyslog.conf` and `/etc/rsyslog.d/default.conf`. The latter contains lines like these:
+
+`auth,authpriv.*		/var/log/auth.log`
+
+These lines contain a **selector** and an **action**. The selector is then further broken down into a **facility** and a **priority**, separated by a dot. In the above example auth,authpriv is the **facility** and * is the **priority**.
+
+Basically, this means that any messages created by the system concerning the two facilities auth and authpriv gets sent to /var/log/auth.log.
+
+You can specify to only send messages of a certain priority like in the example below, or with the wildcard option * like in the example above.
+
+`mail.info	/var/log/mail.info`
