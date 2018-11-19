@@ -4,7 +4,6 @@ date:   2018-11-19 20:45:00 +0100
 categories: ubuntu
 ---
 ### rsyslog daemon
-
 rsyslog is a service or daemon in Linux used to store or ship syslogs so sysadmins can manage their systems.
 
 You can check if the service is running: `$ systemctl status rsyslog`
@@ -12,7 +11,6 @@ You can check if the service is running: `$ systemctl status rsyslog`
 rsyslog can send logs to files on the local machine or to a remote host.
 
 ### configuring rsyslog
-
 In Ubuntu, the rsyslog configuration file is located at `/etc/rsyslog.conf` and `/etc/rsyslog.d/default.conf`. The latter contains lines like these:
 
 `auth,authpriv.*		/var/log/auth.log`

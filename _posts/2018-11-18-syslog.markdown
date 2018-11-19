@@ -1,5 +1,5 @@
 ---
-title:  "Syslog"
+title:  "syslog"
 date:   2018-11-18 20:00:54 +0100
 categories: ubuntu
 ---
