@@ -2,6 +2,7 @@
 title:  "rsyslog"
 date:   2018-11-19 20:45:00 +0100
 categories: ubuntu
+image: /images/rsyslog.png
 ---
 ### rsyslog daemon
 rsyslog is a service or daemon in Linux used to store or ship syslogs so sysadmins can manage their systems.

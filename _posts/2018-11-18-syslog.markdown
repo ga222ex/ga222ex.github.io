@@ -2,6 +2,7 @@
 title:  "syslog"
 date:   2018-11-18 20:00:54 +0100
 categories: ubuntu
+image: /images/syslog.jpeg
 ---
 TODO write something cool
 
