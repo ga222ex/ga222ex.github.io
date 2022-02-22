@@ -7,21 +7,7 @@
 <link rel="shortcut icon" href="{{ "/assets/icon/favicon.ico" | absolute_url }}">
 <meta name="msapplication-config" content="{{ "/assets/icon/browserconfig.xml" | absolute_url }}">
 <meta name="description" content="{{ site.description }}">
-
-<!-- MathJax version 2 config and import -->
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  jax: ["input/TeX", "output/HTML-CSS"],
-  tex2jax: {
-    inlineMath: [ ['$', '$'] ],
-    displayMath: [ ['$$', '$$'] ],
-    processEscapes: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-  },
-  messageStyle: "none",
-  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
-});
-</script>
+<script src="/assets/js/mathjax-config.js"></script>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_CHTML"></script>
 
 {% include opengraph.html %}
