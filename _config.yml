@@ -12,7 +12,7 @@ defaults:
   values:
     permalink: "/blog/:title/"
     layout: post
-    comments: true
+    comments: false
     author: Gustav Andersson
 
 # Jekyll
