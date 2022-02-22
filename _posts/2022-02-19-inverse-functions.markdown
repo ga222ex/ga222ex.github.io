@@ -5,7 +5,7 @@ categories: math
 image: /images/inverse_function.png
 ---
 ### What is an inverse function?
-Inverse functions etc etc lala.
+Inverse functions etc etc.
 
 $$E=mc^2$$
 
