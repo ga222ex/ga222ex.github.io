@@ -2458,8 +2458,9 @@
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
-			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
 		}
 
 			.image.main:first-child {
@@ -2748,7 +2749,7 @@
 		}
 
 		header.major {
-			margin: 0 0 4rem 0;
+			margin: 0 0 2rem 0;
 			text-align: center;
 		}
 
