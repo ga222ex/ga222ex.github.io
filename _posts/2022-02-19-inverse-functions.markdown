@@ -7,6 +7,11 @@ image: /images/inverse_function.png
 ### What is an inverse function?
 Inverse functions etc etc.
 
+## $$\lim_{x \to 0+} xln(x)$$
+
+## $$\frac{sin(x)}{x}$$
+## $$s\displaystyle{\lim_{x \to \infty}}$$
+
 $$E=mc^2$$
 
 $$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
