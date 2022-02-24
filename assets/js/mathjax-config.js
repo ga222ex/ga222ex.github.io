@@ -1,7 +1,7 @@
 var MathJax = {
   jax: ["input/TeX", "output/HTML-CSS"],
   tex2jax: {
-    inlineMath: [['$$', '$$'],['\\(','\\)']],
+    inlineMath: [['$', '$']],
     processEscapes: true
   }
 }
