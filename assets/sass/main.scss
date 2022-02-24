@@ -1,3 +1,9 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+// This sass file is not used at the moment. use it by deleting main.css in assets/css and replacing it with this file. however, that breaks the layout.
+
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
@@ -63,12 +69,3 @@
 	@import 'layout/main';
 	@import 'layout/footer';
 	@import 'layout/navPanel';
-
-// Gustav settings
-
-#signature {
-	font-size: 48px;
-}
-p {
-	float: right;
-}

@@ -7,16 +7,12 @@ image: /images/sinXOverX.png
 
 $\displaystyle{\lim_{x \to 0^+}} x \cdot ln(x)$
 
-$t=\frac{1}{x}$
+$\displaystyle{t=\frac{1}{x}}$
 
 $\displaystyle{\lim_{t \to \infty}}\frac{1}{t} \cdot \ln\frac{1}{t}$
 
-$\ln\frac{1}{t}=\ln 1 - \ln t = -\ln t$
+$\displaystyle{\ln\frac{1}{t}=\ln 1 - \ln t = -\ln t}$
 
 $\displaystyle{\lim_{t \to \infty}}\frac{1}{t} \cdot (-\ln t)$
 
 $\displaystyle{-\lim_{t \to \infty}}\frac{\ln t}{t} = -0 = 0$
-
-$$t=\frac{1}{x}$$
-
-\\[t=\frac{1}{x}\\]
