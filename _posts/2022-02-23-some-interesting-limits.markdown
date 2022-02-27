@@ -9,7 +9,7 @@ Let's find the limit of $x \cdot ln(x)$, as $x \rightarrow 0$ from the right. In
 
 A left sided limit is not defined, because when $x \rightarrow 0$ from the left, the ln function is undefined.
 
-By substituting $t$ for $1/x$, we can instead find the limit as t approaches infinity.
+By substituting $t$ for $\frac{1}{x}$, we can instead find the limit as t approaches infinity.
 
 $\displaystyle{t=\frac{1}{x}}$
 
