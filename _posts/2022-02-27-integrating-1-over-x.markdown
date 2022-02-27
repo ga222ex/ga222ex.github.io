@@ -7,7 +7,7 @@ categories: math
 
 We want integrate $\frac{1}{x}$, which is the same as finding a primitive function of $\frac{1}{x}$.
 
-We know that $\frac{d}{dx}\ln(x) = \frac{1}{x}$, from known differentiation rules, so that tells us that a primitive function for $\frac{1}{x}$ is $\ln(x) + C$. But there is a problem. The derivation rule we just applied is not defined for negative x. $\ln(x)$ is only defined for $x > 0$, while the original function $\frac{1}{x}$ is defined for $x \neq 0$, so it is also defined for negative numbers. We need another approach.
+From known differentiation rules we know that $\frac{d}{dx}\ln(x) = \frac{1}{x}$, which tells us that a primitive function for $\frac{1}{x}$ is $\ln(x) + C$. But there is a problem. The derivation rule we just applied is not defined for negative x. $\ln(x)$ is only defined for $x > 0$, while its derivative $\frac{1}{x}$ is defined for $x \neq 0$, so it is also defined for negative numbers. A derivative of a function can <strong>not</strong> be defined where the function is not. If a function is not defined somewhere, it cannot have a slope there. We need another approach.
 
 Let us study the function $f(x) = \ln \lvert x \rvert$. The domain of that function is $x \neq 0$.
 
