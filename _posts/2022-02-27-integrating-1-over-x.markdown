@@ -26,4 +26,4 @@ $\frac{d}{dx}\ln(-x) = \frac{1}{-x}\cdot (-1) = \frac{1}{x}$ if $x < 0$
 
 In other words: $\frac{d}{dx}\ln \lvert x \rvert = \frac{1}{x}$ if $x \neq 0$
 
-We can now safely say that $\int \frac{1}{x}\;\mathrm{d}x = \ln \lvert x \rvert + C$ if $x \neq 0$. The primitive function $\ln \lvert x \rvert + C$ is then defined for every x that $\frac{1}{x}$ is.
+We can now safely say that $\int \frac{1}{x}\;\mathrm{d}x = \ln \lvert x \rvert + C$ if $x \neq 0$. The primitive function $\ln \lvert x \rvert + C$ is then defined for every x that its derivative $\frac{1}{x}$ is.
